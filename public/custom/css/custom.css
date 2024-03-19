@@ -1,0 +1,53 @@
+.img-show{
+    max-height: 150px;
+}
+
+.shadow {
+    box-shadow: 0 0.010rem 0.10rem #FFFBF5 !important;
+}
+
+#img-preview {
+  display: none; 
+  width: 155px;   
+  border: 2px dashed #333;  
+  margin-bottom: 20px;
+  margin-top:1em;
+}
+#img-preview img {  
+  width: 100%;
+  height: auto; 
+  display: block;   
+}
+
+#swal2-title , .swal2-html-container{
+  color: black !important;
+}
+
+.box {
+  width: 500px;
+  margin: auto;
+}
+
+.box .more-text {
+  display: none;
+}
+
+.box .less {
+  display: none;
+}
+
+.card-hover:hover img{
+  transition: .4s ease-in-out;
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.card-hover .card{
+  overflow: hidden;
+  
+}
+
+.card-hover .card-body{
+  z-index: 2;
+  background-color: white;
+}
